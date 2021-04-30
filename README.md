@@ -22,7 +22,7 @@ curl https://www.make-invoice.com/invoices/create-pdf \
   -d invoiceNo="123" \
   -d BilledTo="Sample 123, Address" \
   -d PaymentMethod="Paypal" \
-  -d ShipTo="Ship to address, Test sample" \
+  -d BillingAddress="Ship to address, Test sample" \
   -d BillDate="Aug. 4, 2020" \
   -d BillDueDate="Aug. 4, 2020" \
   -d Notes="This is a sample notes and can also accept <br/>" \
@@ -48,7 +48,7 @@ curl https://www.make-invoice.com/invoices/create-pdf \
         "invoiceNo": "321",
         "BilledTo": "Sample billing address of client",
         "PaymentMethod": "Paypal",
-        "ShipTo": "This is a sample billing address",
+        "BillingAddress": "This is a sample billing address",
         "BillDate": "2021-04-17",
         "BillDueDate": "2021-04-10",
         "Notes": "This is my notes accepts<br />space html tag",
@@ -105,12 +105,12 @@ Line items are represented as an array of objects. Here's an example:
 
 ### Invoice
 
-When a value is null or zero, the field will return a default value like "Not available". The exception to this are the required fields `from`, `to`, `date`, and `items`.
+When a value is null or zero, the field will return a default value like "Not available". The exception to this are the required fields `BilledTo`, `BillingAddress`, `date`, and `items`.
 
  invoiceNo="123" \
   -d BilledTo="Sample 123, Address" \
   -d PaymentMethod="Paypal" \
-  -d ShipTo="Ship to address, Test sample" \
+  -d BillingAddress="Ship to address, Test sample" \
   -d BillDate="Aug. 4, 2020" \
   -d BillDueDate="Aug. 4, 2020" \
   -d Notes="This is a sample notes and can also accept <br/>" \
@@ -145,7 +145,7 @@ When a value is null or zero, the field will return a default value like "Not av
 
 ### Subtotal & Grand Total readonly fields
 
-We have fields Subtotal, Tax amount and Grand total in read only mode it has automatic calculations for all numbers input in the form.
+We have a field like Subtotal, Tax amount and Grand total in read only mode it has automatic calculations for all numbers input in the form.
 
 ## Support
 
