@@ -153,9 +153,9 @@ Having any issues? or do you have any suggestions you would like to add in the s
 
 You can check these useful links that maybe can help to answer your questions
 
-[Help](https://www.make-invoice.com/help)
-[How to use](https://www.make-invoice.com/how-to-use)
-[Guidelines](https://www.make-invoice.com/guide)
+- [Help](https://www.make-invoice.com/help)
+- [How to use](https://www.make-invoice.com/how-to-use)
+- [Guidelines](https://www.make-invoice.com/guide)
 
 ## Terms of Use and Privacy Policy
 
