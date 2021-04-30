@@ -4,7 +4,6 @@ Simple HTTP API to create invoice PDFs.
 - [About](#about)
 - [Getting Started](#getting-started)
 - [API Reference](#api-reference)
-- [Rate Limiting](#rate-limiting)
 - [Support](#support)
 - [Terms of Use and Privacy Policy](#terms-of-use-and-privacy-policy)
 
@@ -13,12 +12,6 @@ Simple HTTP API to create invoice PDFs.
 Make your own invoice generator through our API and download PDF quickly. Create and pay your customers in fastest way. Expand your site capability to create invoice for your users and send directly to their client/customer email. 
 
 Our API only have one endpoint that returns a PDF as a response and downloaded.
-
-### Use Cases
-- Creating VAT invoices 
-- Generate a PDF with an invoice for which you have the data (recipieint, line items, etc)
-- Create invoices for B2B customers based on an order or receipt.
-- Offering goods or services on credit.
 
 ### Endpoint
 https://www.make-invoice.com/invoices/create-pdf
@@ -156,8 +149,14 @@ We have fields Subtotal, Tax amount and Grand total in read only mode it has aut
 
 ## Support
 
-Have a feature request or bug report? We would love to hear your thoughts! You can [create an issue](https://github.com/Invoiced/invoice-generator-api/issues) on GitHub for any issues you encounter or feature requests. If the matter is more private you can reach us at hello@invoiced.com.
+Having any issues? or do you have any suggestions you would like to add in the system? You are very welcome to give us your feedback!.
+
+You can check these useful links that maybe can help to answer your questions
+
+[Help](https://www.make-invoice.com/help)
+[How to use](https://www.make-invoice.com/how-to-use)
+[Guidelines](https://www.make-invoice.com/guide)
 
 ## Terms of Use and Privacy Policy
 
-Using invoice-generator.com is subject to the [Privacy Policy and Terms of Use](https://invoice-generator.com/terms).
+Using www.make-invoice.com is subject to the [Privacy Policy and Terms of Use](https://www.make-invoice.com/privacy-policy).
